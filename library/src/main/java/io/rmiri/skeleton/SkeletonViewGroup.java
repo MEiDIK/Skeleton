@@ -691,6 +691,7 @@ public class SkeletonViewGroup extends SkeletonMaster {
     public void finishAnimation() {
         if (isAnimationPlay) {
             isLastLoopAnimation = true;
+            isAnimationPlay = false;
         }
     }
 
